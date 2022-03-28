@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  background: rgb(24, 42, 75);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  width: 25%;
+  text-align: center;
+}
+
+.PÁGINAS{
+  width: 75%;
+  text-align: end;
+}
+
+.PÁGINAS a{
+  font-size: 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: rgb(0, 204, 255);
+}
+
+.PÁGINAS a ion-icon{
+  margin-right: 10px;
+}
+
+.PÁGINAS a:hover{
+  color: #ffffff;
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: 'Gemunu Libre', sans-serif; 
+}
+
+.hero {
+  height: 100vh;
+  background-image: url('IMGCuarto.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.titulo {
+  color: #fff;
+  width: 500px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.descripcion {
+  color: rgb(255, 255, 255);
+  width: 500px;
+  border: 3px solid rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 5px 20px;
+  font-size: 20px;
+}
+
+.titulo h2{font-size: 100px;}
